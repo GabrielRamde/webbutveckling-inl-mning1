@@ -1,28 +1,30 @@
-body {
-  background-image: url(https://www.pixel-creation.com/wp-content/uploads/csgo-background-c2b7e291a0-download-free-backgrounds-for-desktop-and-mobile.jpg);
-  background-repeat: repeat;
+body { 
+  background-image: url(https://www.pixel-creation.com/wp-content/uploads/csgo-background-c2b7e291a0-download-free-backgrounds-for-desktop-and-mobile.jpg); /*Bakgrundsbild*/
   color: white;
   font-family: arial;
 }
+
 h1 {
   text-align: center;
   font-size: 75px;
   font-family: Impact, Charcoal, sans-serif;
 }
 
+/*Påbörjar lista styling*/
+
 nav ul {
-  list-style-type: none;
+  list-style-type: none; /* Ta bort runda punkter i listor*/
 }
 
 nav li a {
   color: #000;
-  text-decoration: none;
+  text-decoration: none; /*Gör om en länk till en vanlig text*/
   color: white
 }
 
 nav li {
   text-align: center;
-  float: center;
+  float: center; /*Centrerar navigationsmenyn*/
   font-size: 20px;
 }
 
@@ -30,13 +32,7 @@ nav li a.sida {
   color: red;
 }
 
-.center {
-  text-align: center;
-}
-
-.yellow {
-  color: yellow;
-}
+/*Avslutar lista styling*/
 
 .undertext {
   text-align: center;
@@ -44,13 +40,68 @@ nav li a.sida {
 }
 
 .text {	
-  font-size: 30px;
+  font-size: 30px; /*Storlek på texten*/
   
 }
 
-.bild {
-  display: block;
+.bild { /*Centerar bild*/
+  display: block; 
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
+
+p.lista {
+  font-size: 20px;
+}
+
+ul.lista {
+  font-size: 10px; 
+}
+
+/*Påbörja text styling*/
+
+caption.text {
+  font-size: 30px; 
+  text-align: center; /*Centrerar texten*/
+  font-family: Impact, Charcoal, sans-serif; /*Stil på texten*/
+}
+
+/*Avslutar text styling*/
+
+.bild2 {
+  width: 620px; /*Bredden på bilden*/
+  height: 430px; /*Höjden på bilden*/
+}  
+
+/*Påbörjar tabell styling*/
+
+table{ /*Centrerade tabellen*/ 
+  margin: auto; 
+  padding: auto; 
+}
+
+table, th, td {
+  border:2px solid white; /*Ändrade storleken på rutorna*/
+  border-collapse: collapse; /*För ihop rutor som sitter bredvid varandra*/
+  
+}
+
+th, td{
+  width:280px; /*Ändrade rutornas bredd i tabellen*/
+}
+
+tr:nth-child(even) {
+	background-color:red; /*mörkblå färg på bakgrunden av tabellen*/
+	
+}
+
+tr:nth-child(odd) {
+	background-color:darkblue; 
+}
+
+/*Avslutar tabell styling*/
+
+
+
+  
