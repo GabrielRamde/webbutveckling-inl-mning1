@@ -17,7 +17,6 @@ nav ul {
 }
 
 nav li a {
-  color: #000;
   text-decoration: none; /*Gör om en länk till en vanlig text*/
   color: white
 }
